@@ -1,4 +1,5 @@
 FROM ubuntu:14.10
+MAINTAINER aubrey@hewes.org.uk
 
 ENV DEBIAN_FRONTEND noninteractive
 
