@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -u $(id -u) -v ${HOME}/.BitchX:/root/.BitchX -e IRCNAME="docker-bitchx" -it fibonascii/bitchx -n ${USER} [parameters]
